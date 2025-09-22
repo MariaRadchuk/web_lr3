@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 
-.sidebar h1 a {
+/* .sidebar h1 a {
   margin-bottom: 15px;
   text-align: center;
   font-family: "Orbitron";
@@ -32,7 +32,7 @@ body {
   text-shadow: 0 0 10px #3835f0;
   border: 1px solid #ffffff;
   box-shadow: 0 2px 6px #3835f0;
-}
+} */
 .sidebar ul {
   list-style: none;
 }
@@ -46,14 +46,14 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
   color: #ffffff;
-  border: 1px solid #3835f0;
+  border: 1px solid #ffffff;
   padding: 10px;
   display: block;
   transition: color 0.3s, box-shadow 0.3s;
 }
 
 .sidebar a:hover {
-  color: #3835f0;
+  color: #05cbfd;
   box-shadow: 0 4px 6px #3835f0;
 }
 
@@ -68,8 +68,8 @@ body {
   height: 250px;
   text-align: center;
   padding: 30px;
-  border: 1px solid #3835f0;
-  box-shadow: 0 2px 6px #3835f0;
+  border: 1px solid #000000;
+  box-shadow: 0 2px 6px #040404;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
@@ -79,7 +79,7 @@ body {
   font-family: "Orbitron", sans-serif;
   font-size: 48px;
   color: #ffffff;
-  text-shadow: 0 0 10px #3835f0;
+  text-shadow: 0 0 10px #000000;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -104,8 +104,8 @@ body {
 .section {
   margin-bottom: 20px;
   padding: 20px;
-  border: 1px solid #3835f0;
-  box-shadow: 0 2px 6px #3835f0;
+  border: 1px solid #000000;
+  box-shadow: 0 2px 6px #000000;
   background: rgba(30, 30, 63, 0.8);
   position: relative;
 }
@@ -128,7 +128,7 @@ body {
       rgba(144, 202, 249, 0.7),
       rgba(30, 30, 63, 0.7)
     ),
-    url("img/frank.jpg") no-repeat center;
+    url("img/franko.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -172,8 +172,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #3835f0;
-  box-shadow: 0 2px 6px rgba(255, 105, 180, 0.2);
+  border: 1px solid #000000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.6s;
 }
 
@@ -208,7 +208,7 @@ body {
   width: 1000px;
   padding: 20px;
   text-align: center;
-  border: 1px solid #3835f0;
+  border: 1px solid #000000;
   box-shadow: 0 -2px 6px rgba(255, 105, 180, 0.2);
   background: linear-gradient(to right, #1e1e3f, #90caf9, #bbdefb);
 }
@@ -218,5 +218,5 @@ body {
   margin-bottom: 5px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  color: #3835f0;
+  color: #000000;
 }
