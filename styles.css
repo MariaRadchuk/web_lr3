@@ -94,13 +94,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #bbdefb, #90caf9, #1e1e3f),
-    url("https://via.placeholder.com/1000x250?text=Neon+Waves") no-repeat center;
+  background: linear-gradient(to right, #bbdefb, #90caf9, #1e1e3f);
   background-size: cover;
   opacity: 0.6;
   z-index: 0;
 }
-
 .section {
   margin-bottom: 20px;
   padding: 20px;
