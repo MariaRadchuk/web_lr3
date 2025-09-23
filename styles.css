@@ -23,16 +23,6 @@ body {
   height: 100%;
 }
 
-/* .sidebar h1 a {
-  margin-bottom: 15px;
-  text-align: center;
-  font-family: "Orbitron";
-  font-size: 48px;
-  color: #ffffff;
-  text-shadow: 0 0 10px #3835f0;
-  border: 1px solid #ffffff;
-  box-shadow: 0 2px 6px #3835f0;
-} */
 .sidebar ul {
   list-style: none;
 }
@@ -54,7 +44,7 @@ body {
 
 .sidebar a:hover {
   color: #05cbfd;
-  box-shadow: 0 4px 6px #3835f0;
+  box-shadow: 0 4px 6px #05cbfd;
 }
 
 .main-content {
@@ -217,4 +207,29 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #000000;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #1e1e3f;
+  border: 2px solid #05cbfd;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  box-shadow: 0 0 10px #05cbfd;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background-color: #05cbfd;
+  color: #1e1e3f;
+  box-shadow: 0 0 15px #05cbfd;
 }
